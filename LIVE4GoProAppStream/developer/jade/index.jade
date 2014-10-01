@@ -2,7 +2,7 @@
 html(lang="en")
   head
     meta(charset="UTF-8")
-    meta(name="viewport", content="maximum-scale = 1.0, user-scalable = no, width = device-width, initial-scale = 1.0")
+    meta(name="viewport", content="maximum-scale = 0.5, user-scalable = no, initial-scale = 0.5")
     title LIVE4 GoPro stream
     link(rel="stylesheet", href="css/styles.css")
     link(rel="stylesheet", href="player/styles.css")
@@ -10,32 +10,14 @@ html(lang="en")
   body.live4gopro-stream
 
     article
-      .live4player(data-id="")
-        .live4player-base
-        video.live4player-video(
+      .live4player
+        video(
           width="100%",
-          height="100%",
           preload="metadata",
-          fullscreenEnabled
+          fullscreenEnabled,
+          src="http://live4.io/gopro/576438662461740/GOPRO20140930232247.MP4/recording.m3u8",
+          poster="http://live4.io/gopro/576438662461740/GOPRO20140930232247.MP4/thumb.jpg"
           )
-        .live4player-watermark
-        .live4player-loading-screen
-          .live4player-loading-screen-icon
-        .live4player-navigation
-          .live4player-navigation-progressbar
-            img.live4player-navigation-progressbar-heatmap(alt="heat map")
-            .live4player-navigation-progressbar-seekable
-            .live4player-navigation-progressbar-progress
-          .live4player-navigation-play
-          .live4player-navigation-pause
-          .live4player-navigation-mute
-          .live4player-navigation-unmute
-          .live4player-navigation-fson
-          .live4player-navigation-fsoff
-          .live4player-navigation-time
-            .live4player-navigation-time-current
-            .live4player-navigation-time-separator /
-            .live4player-navigation-time-duration
 
       .details
         p.geo Horkoho Street, 33, Kiev, Kyiv city, Ukraine
@@ -46,32 +28,13 @@ html(lang="en")
           a.copy(href="http://live4.io/stream/597722146/GOPRO20140930170532.MP4") Copy link
 
     article
-      .live4player(data-id="")
-        .live4player-base
-        video.live4player-video(
+        video(
           width="100%",
-          height="100%",
           preload="metadata",
-          fullscreenEnabled
+          fullscreenEnabled,
+          src="http://live4.io/gopro/576438662461740/GOPRO20140930232247.MP4/recording.m3u8",
+          poster="http://live4.io/gopro/576438662461740/GOPRO20140930232247.MP4/thumb.jpg"
           )
-        .live4player-watermark
-        .live4player-loading-screen
-          .live4player-loading-screen-icon
-        .live4player-navigation
-          .live4player-navigation-progressbar
-            img.live4player-navigation-progressbar-heatmap(alt="heat map")
-            .live4player-navigation-progressbar-seekable
-            .live4player-navigation-progressbar-progress
-          .live4player-navigation-play
-          .live4player-navigation-pause
-          .live4player-navigation-mute
-          .live4player-navigation-unmute
-          .live4player-navigation-fson
-          .live4player-navigation-fsoff
-          .live4player-navigation-time
-            .live4player-navigation-time-current
-            .live4player-navigation-time-separator /
-            .live4player-navigation-time-duration
 
       .details
         p.geo Horkoho Street, 33, Kiev, Kyiv city, Ukraine
