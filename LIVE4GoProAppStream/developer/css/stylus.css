@@ -1,0 +1,52 @@
+.live4gopro-stream {
+  min-width: 640px;
+  background-color: #111;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+}
+.live4gopro-stream .details {
+  padding: 35px 20px 85px;
+}
+.live4gopro-stream .details .geo,
+.live4gopro-stream .details time {
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ccc;
+  display: block;
+  padding: 0 0 0 50px;
+}
+.live4gopro-stream .details .geo {
+  background: url("../svg/geo.svg") 0 50% no-repeat;
+}
+.live4gopro-stream .details time {
+  background: url("../svg/datetime.svg") 0 50% no-repeat;
+}
+.live4gopro-stream .details nav {
+  margin-top: -2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.live4gopro-stream .details nav a {
+  display: inline-block;
+  border-radius: 2px;
+  border: 2px solid #34aadc;
+  width: 178px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  line-height: 46px;
+  font-size: 28px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px 0 46px;
+}
+.live4gopro-stream .details nav a.fb {
+  background: url("../svg/facebook.svg") 7px 50% no-repeat;
+}
+.live4gopro-stream .details nav a.tw {
+  background: url("../svg/twitter.svg") 7px 50% no-repeat;
+}
+.live4gopro-stream .details nav a.copy {
+  background: url("../svg/link.svg") 7px 50% no-repeat;
+}

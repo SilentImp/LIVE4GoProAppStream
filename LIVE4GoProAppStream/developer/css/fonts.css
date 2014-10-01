@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Helvetica Neue Light';
+  src: url('../fonts/HelveticaNeueCyr-Light.ttf')  format('truetype'), 
+       url('../fonts/HelveticaNeueCyr-Light.svg#e134913b640f138403f1e25143da3868') format('svg');
+  font-style:   normal;
+  font-weight:  200;
+}
